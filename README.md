@@ -1,4 +1,41 @@
 # LaTeXlike-report
+A simple report for Typst with LaTeX style, fully customizable.
+
+## Usage
+You can use this template in the Typst web app by clicking "Start from template" on the dashboard and searching for `LaTeXlike-report`.
+
+Alternatively, you can use the CLI to kick this project off using the command
+
+```shell
+typst init @preview/LaTeXlike-report
+```
+
+Typst will create a new directory with all the files needed to get you started.
+
+## Configuration
+
+The template exports one function `LaTeXlike-report` with the following named parameters:
+
+### Cover Parameters
+- `author (str)`: The main author of the document (must be a string)
+- `title (content)`: The main title of the report
+- `subtitle (content)`: The document's subtitle
+- `participants (content)`: List of additional authors (the main author appears first)
+- `affiliation (content)`: Institution or academic affiliation
+- `year (content)`: Publication year of the document
+- `class (content)`: Academic class or subject
+- `other (content)`: Additional optional information 
+- `date (content)`: Document date (can use #datetime.today().display() for current date)
+- `logo (image)`: Institutional logo image (usage: image("path/to/image.svg"))
+
+### Theme and Language Configuration
+- `theme-color (color)`: Main theme color (see [color](https://typst.app/docs/reference/visualize/color/) for more information)
+- `lang (str)`: Document language ("es" for Spanish, "en" for English, etc)
+- `participants-supplement (str)`: Text preceding the authors list (adjusts based on language)
+
+### Font Configuration
+- `title-font (str)`: Font used for titles
+- `font (str)`: Main document text font
 - `font-size (length)`: Main font size (default: 13pt)
 - `font-weight (number)`: Font weight (default: 400)
 
