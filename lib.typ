@@ -1,6 +1,6 @@
 #import "@preview/chic-hdr:0.5.0":*
 #import "@preview/equate:0.3.1":*
-#let LaTeXlike-report(
+#let latexlike-report(
  // ======== Cover ============
   author: none,
   title: [Report Title],
@@ -47,7 +47,7 @@
 
   //-----chic header package----
   // customize the left/center/right header and left/center/right footer
-  // you can add images, text, the number of the current page, etc, or put none if you dont want some part of the header or footer.
+  // you can add images, text, the number of current page, etc, or put none if you dont want some part of the header or footer.
   //some usefull function: chic-page-number(), chic-heading-name()
   
   h-l : "",
