@@ -73,7 +73,7 @@ Unnumbered headings won't appear in the outline.
 ### Customize outline
 You can customize the outline by disabling the default and then using a show rule and calling the function like [here](https://typst.app/docs/reference/model/outline/).
 ```typst
-#show: LaTeXlike-report.with(
+#show: latexlike-report.with(
 .....
 show-outline:false,
 ..... )
@@ -88,7 +88,7 @@ show-outline:false,
 
 This template has some fixed features that you can keep or replace if you don't like making it fully customizable. To replace it you just need to add a show rule below the main function call, for example:
 ```typst
-#show: LaTeXlike-report.with(
+#show: latexlike-report.with(
 ..... )
 #show smallcaps: set text(font: "Latin Modern Roman Caps")
   ```
