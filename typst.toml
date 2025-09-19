@@ -1,11 +1,11 @@
 [package]
-name = "LaTeXlike-report"
+name = "latexlike-report"
 version = "1.0.0"
 entrypoint = "lib.typ"
 authors = ["Jorge E. Cruz"]
 license = "MIT"
 description = "A simple report for Typst with LaTeX style, fully customizable."
-repository = "https://github.com/jorgexbeta/LaTeXlike-report.git"
+repository = "https://github.com/jorgexbeta/latexlike-report.git"
 keywords = ["report", "non-fiction", "basic"]
 categories = ["paper", "report"]
 
