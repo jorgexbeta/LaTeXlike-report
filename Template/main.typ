@@ -1,6 +1,6 @@
-#import "@preview/LaTeXlike-report:1.0.0": *
+#import "@preview/latexlike-report:1.0.0": *
 
-#show: LaTeXlike-report.with(
+#show: latexlike-report.with(
  
  // ======== Cover ============
  //Use content [] or none, except in author.
@@ -51,7 +51,7 @@
 
   //-----chic header package----
   // customize the left/center/right header and left/center/right footer
-  // you can add images, text, the number of the current page, etc, or put none if you dont want some part of the header or footer.
+  // you can add images, text, the number of the current page, etc, or put none if you don't want some part of the header or footer.
   //some usefull function: chic-page-number(), chic-heading-name()
   
   h-l : [#smallcaps[Something you want to add]],
