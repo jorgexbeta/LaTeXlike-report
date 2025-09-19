@@ -1,2 +1,2 @@
 # LaTeXlike-report
-A simple report for Typst, fully customizable.
+A simple report for Typst with LaTeX style, fully customizable.
