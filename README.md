@@ -51,7 +51,7 @@ The template exports one function `LaTeXlike-report` with the following named pa
 ### Page Style
 - `pagebreak-section (boolean)`: Inserts page break after level 1 headings (true or false)
 - `show-outline (boolean)`: Shows or hides table of contents (true or false)
-
+- `page-paper (str)`: Defines the tipe of paper (default: "a4")
 ### Headers and Footers (from [chic header](https://typst.app/universe/package/chic-hdr) package)
 You can add images, text, the number of current page, etc, or put none if you dont want some part of the header or footer.
 Some usefull function: `chic-page-number()`, `chic-heading-name()`
@@ -83,3 +83,20 @@ show-outline:false,
 ) //this is just an example, it can be however you like
 #outline()
   ```
+
+## Fixed Features and Overlaping
+
+This template has some fixed features that you can keep or replace if you dont like making it fully customizable. To replace it you just need to add a show rule below the main function call, for example:
+```typst
+#show: LaTeXlike-report.with(
+..... )
+#show smallcaps: set text(font: "Latin Modern Roman Caps")
+  ```
+The fixed features are listed below:
+- `Headings style and color`: see [heading](https://typst.app/docs/reference/model/heading/) to learn how to customize it.
+- `Tables and figures caption`: using `#show figure.caption()` you can change it
+- `Paragraph style`: see [par](https://typst.app/docs/reference/model/par/), default with justify and first line indentation.
+- `Paragraph justify off in tables` : I don't recommend changing this but you can do it adding `#show table.cell: set par(justify: true)`
+- `chic-hdr package`: Learn how to use it [here](https://typst.app/universe/package/chic-hdr), you don't need to import it, just add the show rule below the main function
+- `equate package`: Learn how to use it [here](https://typst.app/universe/package/equate), you don't need to import it, just add the show rule below the main function
+
