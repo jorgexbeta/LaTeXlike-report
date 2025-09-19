@@ -1,7 +1,6 @@
 #import "@preview/chic-hdr:0.5.0":*
 #import "@preview/equate:0.3.1":*
 #let LaTeXlike-report(
- 
  // ======== Cover ============
   author: none,
   title: [Report Title],
@@ -19,7 +18,7 @@
 
   //==========Theme ===============
   theme-color: rgb(128, 128, 128),
-  lang: "en", // Only "es" and "en"
+  lang: "en", 
    participants-supplement: "Authors:", //Change it if you change the language
  
             
@@ -44,7 +43,7 @@
   //===========Style===============
   pagebreak-section: true, //For pagebreak after adding a new level one heading (=)
   show-outline:true, //true or false 
-
+  page-paper:"a4",
 
   //-----chic header package----
   // customize the left/center/right header and left/center/right footer
@@ -65,7 +64,7 @@
 
 
   set document(author: author, title: title)
-  set page("a4")
+  set page(page-paper)
 
 
   //fuentes
@@ -123,7 +122,7 @@
 
   
 
-  show selector(<nonumber>): set heading(numbering: none, outlined: false) // use <nonumber> to unnumber the heading
+  show selector(<nonumber>): set heading(numbering: none,outlined: false) // use <nonumber> to unnumber the heading
                                                            
                                                            
                                                           
