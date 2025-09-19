@@ -1,20 +1,20 @@
-# LaTeXlike-report
+# latexlike-report
 A simple report for Typst with LaTeX style, fully customizable.
 
 ## Usage
-You can use this template in the Typst web app by clicking "Start from template" on the dashboard and searching for `LaTeXlike-report`.
+You can use this template in the Typst web app by clicking "Start from template" on the dashboard and searching for `latexlike-report`.
 
 Alternatively, you can use the CLI to kick this project off using the command
 
 ```shell
-typst init @preview/LaTeXlike-report
+typst init @preview/latexlike-report
 ```
 
 Typst will create a new directory with all the files needed to get you started.
 
 ## Configuration
 
-The template exports one function `LaTeXlike-report` with the following named parameters:
+The template exports one function `latexlike-report` with the following named parameters:
 
 ### Cover Parameters
 - `author (str)`: The main author of the document (must be a string)
