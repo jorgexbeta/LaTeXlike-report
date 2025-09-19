@@ -21,7 +21,7 @@
 
   //==========Theme ===============
   theme-color: rgb("#0f2787"),
-  lang: "en", // Only "es" and "en"
+  lang: "en", 
    participants-supplement: "Authors:", //Change it if you change the language
  
             
@@ -47,7 +47,7 @@
   //===========Page style===============
   pagebreak-section: true, //For pagebreak after adding a new level one heading (=)
   show-outline:true, //true or false 
-
+  page-paper:"a4",
 
   //-----chic header package----
   // customize the left/center/right header and left/center/right footer
@@ -83,6 +83,7 @@
 == Unnumbered section in level two <nonumber>
 
 === Simple list <nonumber>
+
 
 + #lorem(4)
   - #lorem(2)
