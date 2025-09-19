@@ -123,7 +123,7 @@
 
   
 
-  show selector(<nonumber>): set heading(numbering: none) // use <nonumber> to unnumber the heading
+  show selector(<nonumber>): set heading(numbering: none, outlined: false) // use <nonumber> to unnumber the heading
                                                            
                                                            
                                                           
